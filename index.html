@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh - CN">
+
+<head>
+  <meta charset="UTF - 8">
+  <meta name="viewport" content="width=device-width, initial - scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+
+
+  <title>SpeechSEC</title>
+</head>
+
+<body>
+    <!-- 标题和作1者信息部分 -->
+    <header>
+      <br>
+      <h1 style="text-align: center;font-size:48px;">SpeechSEC: A Unified Multi-Task Framework for <br>Speech Synthesis, Editing, and Continuation</h1>
+      
+    </header>
+  
+    <div class="author">
+  <!--     <p>Liming Liang<sup>1</sup></p>
+      <p><sup>1</sup>Peking University</p> -->
+      <p>(Interspeech 2025)</p>
+    </div> 
+    <br>
+    <div class="button-group">
+      <a href="#" class="button">PAPER</a>
+      <a href="#" class="button">CODE (COMING SOON)</a>
+    </div>
+
+    <section class="abs">
+        <h2 style="text-align: center;">Abstract</h2>
+        <hr>
+        <p>Recent advancements in non-autoregressive single-task speech synthesis have garnered significant attention. 
+            However,traditional single-task speech synthesis methods focus primarily on mapping semantic tokens to 
+            acoustic tokens, which overlooking the internal relationships within acoustic features. Addressing this 
+            gap, we propose SpeechSEC, a unified multi-task framework designed for Speech Synthesis, Editing, and 
+            Continuation tasks by dynamically adjusting input conditions. SpeechSEC not only surpasses previous 
+            state-of-the-art method in audio quality (4.20 vs 4.00), and voice preservation (0.72 vs 0.58) for 
+            synthesis task by acquiring shared knowledge, but also efficiently executes editing and continuation 
+            tasks with good performance via non-autoregressive techniques. Additionally, SpeechSEC exhibits a strong adaptability 
+            to current speech discretization methods, like Hubert, Descript-Audio-Codec and SpeechTokenizer, which showcases robustness 
+            of our approach.</p>
+        
+      </section>
+    
+      <!-- model structure -->
+  <section class="modelstructure">
+    <h2 style="text-align: center;">Model structure</h2>
+    <hr>
+    <br><br>
+    <div class="image-struct">
+      <img src="images/modelstructure.png" alt="示例图片">
+  </div>
+  </section>
+
+  <section class="contribution">
+    <h2 style="text-align: center;">Contribution</h2>
+    <hr>
+    <br>
+    <ul>
+      <li>We significantly improve speech synthesis performance through multi-task joint training, enhancing intelligibility, voice preservation and audio quality, while ensuring fast execution with non-autoregressive methods. Our framework outperforms the state-of-the-art method in both voice preservation and audio quality.</li>
+      <li>We propose a unified multi-task framework that handles speech synthesis, editing, and continuation in a single model, achieving high efficiency and versatility in audio processing tasks.</li>
+      <li>We demonstrate the adaptability and robustness of our approach by showing its effectiveness across different semantic and acoustic token extraction methods, highlighting its broad applicability and potential for real-world use.</li>
+  </ul>
+    
+  </div>
+  </section>
+
+</body>
+
+</html>

@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font - family: Arial, sans - serif;
+    /* font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; */
+    margin: 0;
+    padding: 0;
+    line - height: 1.6;
+    min-height: 100vh;
+    background-image:url("images/1.png");
+    /* 设置背景图片不重复 */
+    background-repeat: no-repeat;
+    /* 设置背景图片宽度为 100%，高度自动（保留原图高度） */
+    background-size: 100% 22%;
+  }
+  
+header {
+    text - align: center;
+    padding: 20px;
+    color:white;
+    background - color: #f4f4f4;
+  }
+  
+header h1 {
+    margin - bottom: 20px;
+    /* font-size:42px; */
+  }
+
+  .author{
+    color:white;
+    text - align: center; /* 让按钮组内的按钮居中 */
+    font-size: 20px;
+  }
+  
+    .button - group {
+      text - align: center; /* 让按钮组内的按钮居中 */
+      
+    }
+    
+    .button-group a {
+      display: inline-block; /* 让按钮并排 */
+      padding: 12px 24px;
+      margin: 8px; /* 按钮间距 */
+      background-color: white; /* 白色背景 */
+      color: black; /* 黑色字体 */
+      text-decoration: underline; /* 去掉下划线 */
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 10px; /* 圆角 */
+      border: 2px solid white; /* 黑色边框 */
+      transition: all 0.3s ease; /* 动画过渡 */
+  }
+  .button-group a:hover {
+    background-color: #f0f0f0; /* 鼠标悬停时变灰 */
+  }
+
+  .abs{
+    margin-top: 40px; /* 设置与上面元素的间距为 20px */
+    padding: 40px;
+    width:70%;
+    font-size:18px;
+    line-height: 1.5; /* 使用无单位数字，推荐方式，会根据字体大小自动调整 */
+    letter-spacing: 0.6px;
+    /* font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; */
+  }
+
+  
+
+.modelstructure {
+    
+  padding: 20px;
+  width:70%;
+}
+.image-container {
+  text-align: center;
+}
+img {
+  max-width: 85%;
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.contribution {
+    margin-top: 40px;
+    padding: 20px;
+    width:70%;
+    font-size:18px;
+      line-height: 1.5; /* 使用无单位数字，推荐方式，会根据字体大小自动调整 */
+      letter-spacing: 0.6px;
+      margin-bottom: 180px;
+  }

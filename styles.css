@@ -13,7 +13,7 @@ body {
     /* 设置背景图片不重复 */
     background-repeat: no-repeat;
     /* 设置背景图片宽度为 100%，高度自动（保留原图高度） */
-    background-size: 100% 22%;
+    background-size: 100% 10.5%;
   }
   
 header {
@@ -90,5 +90,126 @@ img {
     font-size:18px;
       line-height: 1.5; /* 使用无单位数字，推荐方式，会根据字体大小自动调整 */
       letter-spacing: 0.6px;
-      margin-bottom: 180px;
+      
   }
+
+.Demos {
+  margin-top: 40px;
+  padding: 20px;
+  width:70%;
+  line-height: 1.5; /* 使用无单位数字，推荐方式，会根据字体大小自动调整 */
+    letter-spacing: 0.2px;
+    margin-bottom: 100px;
+  
+}
+
+.demo-section{
+  /* width:80%;
+  margin: 0 auto; */
+}
+
+.audio-list{
+  text-align: center;
+}
+.audio-list audio {
+  
+  margin: 5px 0;
+  width: 250px; /* 调整表格内语音条的宽度 */
+  height: 48px; /* 调整表格内语音条的高度 */
+}
+
+
+.styled-table {
+  /* width: 100%;
+ margin: 20px 0;  */
+ width:94%;
+  margin: 0 auto;
+ border-collapse: collapse;
+  
+  /* font-size: 14px; */
+  text-align: center;
+}
+
+.styled-table thead tr {
+  background-color: #e9ebed;
+  color: rgb(81, 81, 81);
+  text-align: center;
+  font-size: 17px;
+}
+.styled-table tbody tr:nth-child(1) {
+  height: 180px;  /* 设置除首行外的行高 */
+}
+.styled-table tbody tr:nth-child(2) {
+  height: 180px;  /* 设置除首行外的行高 */
+}
+.styled-table tbody tr:nth-child(3) {
+  height: 360px;  /* 设置除首行外的行高 */
+}
+.styled-table th, .styled-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  vertical-align: middle; /* 垂直居中对齐 */
+}
+
+.styled-table tbody tr td {
+  color: rgb(123, 122, 122); /* 除了首行外的字体颜色调整 */
+  font-size:16px ;
+}
+/* .styled-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+} */
+.styled-table tbody tr td audio {
+  
+  width: 250px; /* 调整表格内语音条的宽度 */
+  height: 48px; /* 调整表格内语音条的高度 */
+  display: block;
+  margin: 0 auto; 
+}
+
+
+.styled-table1 {
+  /* width: 100%;
+ margin: 20px 0;  */
+ width:94%;
+  margin: 0 auto;
+ border-collapse: collapse;
+  
+  /* font-size: 14px; */
+  text-align: center;
+}
+
+.styled-table1 thead tr {
+  background-color: #e9ebed;
+  color: rgb(81, 81, 81);
+  text-align: center;
+  font-size: 17px;
+}
+.styled-table1 tbody tr:nth-child(1) {
+  height: 160px;  /* 设置除首行外的行高 */
+}
+.styled-table1 tbody tr:nth-child(2) {
+  height: 160px;  /* 设置除首行外的行高 */
+}
+.styled-table1 tbody tr:nth-child(3) {
+  height: 200px;  /* 设置除首行外的行高 */
+}
+.styled-table1 th, .styled-table1 td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  vertical-align: middle; /* 垂直居中对齐 */
+}
+
+.styled-table1 tbody tr td {
+  color: rgb(123, 122, 122); /* 除了首行外的字体颜色调整 */
+  font-size:16px ;
+}
+/* .styled-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+} */
+.styled-table1 tbody tr td audio {
+  
+  width: 250px; /* 调整表格内语音条的宽度 */
+  height: 48px; /* 调整表格内语音条的高度 */
+  display: block;
+  margin: 0 auto; 
+}

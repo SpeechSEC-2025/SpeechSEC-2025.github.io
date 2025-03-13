@@ -68,6 +68,152 @@
   </div>
   </section>
 
+  <section class="Demos">
+    <h2 style="text-align: center;">Demos</h2>
+    <hr>
+    
+    <!-- <p style="text-align: center;font-size: 18px;">Here are some demos of our speech synthesis system. You can click the audio files below to listen to examples.</p> -->
+    <br>
+    <!-- Speech Synthesis Section -->
+    <div class="demo-section">
+      <h3 style="color: rgb(99, 144, 227);font-size: 22px;">SpeechSEC_SpeechSynthesis</h3>
+      <p style="font-size: 18px;">Includes samples and results for the speech synthesis task, demonstrating how
+         SpeechSEC framework can be used to generate speech with a specific voice.</p>
+      <br>
+      <div class="audio-list" >
+          <!-- 13 audio samples -->
+          <audio controls src="demo-main/1_SpeechSEC_SpeechSynthesis/1.wav"></audio>
+          <audio controls src="demo-main/1_SpeechSEC_SpeechSynthesis/2.wav"></audio>
+          <audio controls src="demo-main/1_SpeechSEC_SpeechSynthesis/3.wav"></audio>
+          <audio controls src="demo-main/1_SpeechSEC_SpeechSynthesis/4.wav"></audio>
+          <audio controls src="demo-main/1_SpeechSEC_SpeechSynthesis/5.wav"></audio>
+          <audio controls src="demo-main/1_SpeechSEC_SpeechSynthesis/6.wav"></audio>
+          <audio controls src="demo-main/1_SpeechSEC_SpeechSynthesis/7.wav"></audio>
+          <audio controls src="demo-main/1_SpeechSEC_SpeechSynthesis/8.wav"></audio>
+          <audio controls src="demo-main/1_SpeechSEC_SpeechSynthesis/9.wav"></audio>
+          <audio controls src="demo-main/1_SpeechSEC_SpeechSynthesis/10.wav"></audio>
+          <audio controls src="demo-main/1_SpeechSEC_SpeechSynthesis/11.wav"></audio>
+          <audio controls src="demo-main/1_SpeechSEC_SpeechSynthesis/12.wav"></audio>
+          <audio controls src="demo-main/1_SpeechSEC_SpeechSynthesis/13.wav"></audio>
+      </div>
+  </div>
+  <br><br><br>
+  <!-- Speech Editing Section -->
+   <!-- Speech Editing Section -->
+   <div class="demo-section">
+    <h3 style="color: rgb(99, 144, 227);font-size: 22px;">SpeechSEC_SpeechEditing</h3>
+    <p style="font-size: 18px;margin-bottom: 30px;">This directory contains samples and results for the speech editing task, showcasing SpeechSEC's 
+      capability to make detailed edits on speech segments while maintaining coherence and clarity.</p>
+    
+    <table class="styled-table">
+        <thead>
+            <tr>
+                <th>Original</th>
+                <th>Edit_Add</th>
+                <th>Edit_Remove/Replace</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <audio controls src="demo-main/2_SpeechSEC_SpeechEditing/1_Original.wav"></audio>
+                    
+                    <p>Hello dear paper reviewer, wish you glad.</p>
+                </td>
+                <td>
+                    <audio controls src="demo-main/2_SpeechSEC_SpeechEditing/1_Edit_Add.wav"></audio>
+                    <p>Hello dear <strong>smart and professional</strong> paper reviewer, wish you glad.</p>
+                </td>
+                <td>
+                    <audio controls src="demo-main/2_SpeechSEC_SpeechEditing/1_Edit_Remove.wav"></audio>
+                    <p>Hello dear <del>paper</del> reviewer, <br>wish you glad.</p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <audio controls src="demo-main/2_SpeechSEC_SpeechEditing/2_Original.wav"></audio>
+                    <p>They still draw about it in history classes</p>
+                </td>
+                <td>
+                    <audio controls src="demo-main/2_SpeechSEC_SpeechEditing/2_edit_add_a_funny_and_impressive.wav"></audio>
+                    <p>They still draw about it in a <strong>funny and impressive</strong> history classes</p>
+                </td>
+                <td>
+                    <audio controls src="demo-main/2_SpeechSEC_SpeechEditing/2_edit_replace_history_biology.wav"></audio>
+                    <p>They still draw about it in <strong>biology</strong> classes</p>
+                </td>
+            </tr>
+            <tr>
+              <td>
+                  <audio controls src="demo-main/2_SpeechSEC_SpeechEditing/3_Original.wav"></audio>
+                  <p>Mr.Sprague realize the trouble, quickly threw off the current, stop the engine.</p>
+              </td>
+              <td>
+                  <audio controls src="demo-main/2_SpeechSEC_SpeechEditing/3_edit_add_andCallThePolice.wav"></audio>
+                  <p>Mr.Sprague realize the trouble, quickly threw off the current, stop the engine and <strong>call the police.</strong></p>
+              </td>
+              <td>
+                  <audio controls src="demo-main/2_SpeechSEC_SpeechEditing/3_edit_delete_quickly.wav"></audio>
+                  <p>Mr.Sprague realize the trouble, <del>quickly</del> threw off the current, stop the engine</p>
+                  <audio controls src="demo-main/2_SpeechSEC_SpeechEditing/3_edit_replace_slowly.wav"></audio>
+                  <p>Mr.Sprague realize the trouble, <strong>slowly</strong> threw off the current, stop the engine.</p>
+              </td>
+          </tr>
+        </tbody>
+    </table>
+</div>
+<br><br><br>
+ <!-- Speech Continuation Section -->
+ <div class="demo-section">
+  <h3 style="color: rgb(99, 144, 227); margin-bottom: 30px;font-size: 22px;">SpeechSEC_SpeechContinuation</h3>
+  <table class="styled-table1">
+      <thead>
+          <tr>
+              <th>Original</th>
+              <th>Speech Continuation</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td>
+                  <audio controls src="demo-main/3_SpeechSEC_SpeechContinuation/1.wav"></audio>
+                  <p>A beautiful plane is flying in the sky</p>
+              </td>
+              <td>
+                  <audio controls src="demo-main/3_SpeechSEC_SpeechContinuation/1_ContinueResult.wav"></audio>
+                  <p>leaving the sun and cloud behind.</p>
+              </td>
+          </tr>
+          <tr>
+              <td>
+                  <audio controls src="demo-main/3_SpeechSEC_SpeechContinuation/2.wav"></audio>
+                  <p>I left him collapsed in the chair</p>
+              </td>
+              <td>
+                  <audio controls src="demo-main/3_SpeechSEC_SpeechContinuation/2_ContinueResult.wav"></audio>
+                  <p>the door bell rang behind me</p>
+              </td>
+          </tr>
+          <tr>
+            <td>
+                <audio controls src="demo-main/3_SpeechSEC_SpeechContinuation/3.wav"></audio>
+                <p>Mr.Sprague realize the trouble, quickly <br>threw off the current, stop the engine</p>
+            </td>
+            <td>
+                <audio controls src="demo-main/3_SpeechSEC_SpeechContinuation/3_ContinueResult.wav"></audio>
+                <p>making the blue sky for smoking, <br>it's really a terrible accident.</p>
+            </td>
+        </tr>
+      </tbody>
+  </table>
+</div>
+
+
+
+
+  </section>
+  
+
 </body>
 
 </html>
